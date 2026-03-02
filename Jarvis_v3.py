@@ -122,10 +122,10 @@ class AI_brain:
 
 
 if __name__ ==" __main__":
-    if __name__ == "__main__":
       Jarvis = AI_brain()   # create object once
 
       while True:
          command = Jarvis.listen_long()
          if command:
           Jarvis.process_command(command)
+
